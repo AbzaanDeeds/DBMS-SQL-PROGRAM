@@ -24,3 +24,13 @@ SELECT Name, Marks FROM Student
 Once created, you can query it like a table:
 
 SELECT * FROM StudentView;
+
+//
+Why Use Views?
+  Security
+    Hide sensitive columns.
+    Example: Show Name and Marks but hide Salary.
+  Simplicity
+    Store complex queries and reuse them.
+  Data Abstraction
+    Users see only the required data.
